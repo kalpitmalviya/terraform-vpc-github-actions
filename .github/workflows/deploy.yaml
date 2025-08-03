@@ -31,5 +31,8 @@ jobs:
         run: terraform plan -input=false
         working-directory:  ./Terraform-VPC
       - name: Terraform Apply
-        run: terraform apply -auto-approve
+        #run: terraform apply -auto-approve
+        working-directory:  ./Terraform-VPC
+      - name: Terraform Destroy
+        run: terraform destroy -auto-approve
         working-directory:  ./Terraform-VPC
