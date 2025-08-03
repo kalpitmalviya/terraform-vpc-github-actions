@@ -5,6 +5,9 @@
 
 Create a complete AWS VPC infrastructure using Terraform, with deployment and CI/CD managed by GitHub Actions.
 
+<img width="1173" height="766" alt="image" src="https://github.com/user-attachments/assets/f58e6ede-b615-4a44-a81e-3329fe94cdd7" />
+
+
 ## Overview
 
 This project automates the creation of a secure, production-ready AWS environment using Terraform modules and GitHub Actions for continuous integration and deployment. The infrastructure includes:
